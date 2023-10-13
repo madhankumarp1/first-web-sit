@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /*body style */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: whitesmoke;
+    }
+
+    /*form width and boder*/
+    form {
+      /*border: 2px solid #d47b7b;*/
+      /*width: 300px;*/
+      margin: 150px 436px;
+      width: 30%;
+      border: 3px solid #dab12b;
+      padding: 10px;
+      background-color: white;
+      font-weight: 900;
+    }
+
+
+    /*password and username */
+
+    input[type=email],
+    input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      /*display: inline-block;*/
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    /*Button*/
+
+    button {
+      background-color: #7da313;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 30%;
+      color: black;
+      font-weight: 900;
+    }
+
+    button:hover {
+        opacity: 0.8;
+      background-color: rgb(206, 109, 18);
+    }
+
+    .container {
+      padding: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--<center><h2>Login Form</h2></center>-->
+  <form action="index.html" method="post">
+
+    <center>
+      <h2>Login Form</h2>
+    </center>
+    <div class="container">
+      <label for="Email">Email Id</label>
+      <input type="email" placeholder="Enter Email Id" name="Email" required>
+
+      <label for="psw">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <center> <button type="submit">Login</button></center>
+
+      </label>
+    </div>
+  </form>
+
+</body>
+
+</html>

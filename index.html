@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webpage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: rgb(225, 209, 240);
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+
+      /*navbar fixed potion*/
+
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    li a:hover {
+      background-color: #d595ee;
+    }
+
+    img {
+      border-radius: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 276px;
+      height: 250px;
+    }
+
+    .p {
+      /* display: flex; */
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+      font-style: italic;
+      margin: 82px;
+    }
+
+    .img {
+      margin-top: 154px;
+    }
+
+    #blog iframe {
+      margin: 92px;
+      margin-top: 129px;
+      width: 1091px;
+      height: 365px;
+    }
+
+    #blog h1 {
+      margin: 173px 73px -99px;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <div class="nav1">
+      <ul>
+        <li><a href="#home">Home
+            <span>
+              <i class="fa-solid fa-house fa-beat-fade fa-12xs" style="color: #d32a46;"></i>
+            </span>
+          </a></li>
+        <li><a href="#about">About <span>
+              <i class="fa-solid fa-address-card fa-bounce fa-12xs" style="color: #d32a46;"></i>
+            </span>
+          </a></li>
+        <li><a href="#project">Projects
+            <span>
+              <i class="fa-solid fa-diagram-project fa-flip fa-12xs" style="color: #d32a46;"></i>
+            </span>
+          </a>
+        </li>
+        <li><a href="#blog">Blog <span>
+              <i class="fa-solid fa-blog fa-flip fa-12xs" style="color: #d32a46;"></i>
+            </span>
+          </a></li>
+        <li><a href="Login_Page.html">logout <span>
+              <i class="fa-solid fa-right-from-bracket fa-bounce fa-12xs" style="color: #d32a46;"></i>
+            </span>
+          </a></li>
+        <li style="float:right">
+          <a class="active" href="#contact">Contact:
+
+            <span>
+              <i class="fa-brands fa-linkedin fa-bounce fa-12xs" style="color: #d32a46;"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </form>
+  <!-- <br><br><br><br><br><br><br>    -->
+  <div id="home">
+    <div class="img">
+      <img src="5.jpg" alt="Avatar" style="width:300px">
+    </div>
+    <div class="p">
+      <h2>MadhanKumar</h2>
+      <P>
+        Software Trainee in DCKAP Palli
+      </P>
+    </div>
+  </div>
+  <div id="blog">
+    <center>
+      <h1>TheBlog</h1>
+    </center>
+    <iframe src="https://madhankumar3.wordpress.com/2023/08/02/bleach-thousand-year-blood-war/"
+      title="Bleach: Thousand Year Blood War"></iframe>
+  </div>
+</body>
+
+</html>
